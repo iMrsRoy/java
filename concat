@@ -1,0 +1,11 @@
+/*package whatever //do not write package name here */
+
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+		String firstName = "Rajarshi ";
+		String lastName = "Roy";
+		System.out.println(firstName.concat(lastName));
+	}
+}
