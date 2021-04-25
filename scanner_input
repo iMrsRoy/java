@@ -1,0 +1,20 @@
+/*package whatever //do not write package name here */
+// a = 4
+// b = 5
+// c = 8.9
+// Scanner class is used to get user input & its found in Java.util package.
+
+
+import java.util.Scanner;
+
+public class New_java{
+
+	public static void main (String[] args) {
+	    Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int b = s.nextInt();
+        double d = s.nextDouble();
+        System.out.print("The sum of a & b is "+(d+b+a));
+
+	}
+}
