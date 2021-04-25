@@ -3,6 +3,9 @@
 // b = 5
 // c = 8.9
 // Scanner class is used to get user input & its found in Java.util package.
+// string input is JAVA
+// I love Java for nextLine
+
 //import java.io.*;
 
 import java.util.Scanner;
@@ -14,9 +17,17 @@ public class New_java{
         int a = s.nextInt();
         int b = s.nextInt();
         double d = s.nextDouble();
-        String str = s.next(); // for string its only .next() 
+      
+	
+	// for string its only .next() 
+	String str = s.next();
+	String str = s.nextLine();
+	char ch = str.charAt(2);
+	
+	
         System.out.println("The sum of a & b is "+(d+b+a));
         System.out.print(str);
+	System.out.print(ch);
 
 	}
 }
